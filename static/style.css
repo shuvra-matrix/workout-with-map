@@ -26,6 +26,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   height: 100vh;
+  background-color: var(--color-dark--1);
   overscroll-behavior-y: none;
 
   background-color: #fff;
@@ -171,24 +172,6 @@ a:visited {
 
 .form__btn {
   display: none;
-}
-
-.copyright {
-  margin-top: auto;
-  font-size: 1.3rem;
-  text-align: center;
-  color: var(--color-light--1);
-}
-
-.twitter-link:link,
-.twitter-link:visited {
-  color: var(--color-light--1);
-  transition: all 0.2s;
-}
-
-.twitter-link:hover,
-.twitter-link:active {
-  color: var(--color-light--2);
 }
 
 /* MAP */
